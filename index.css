@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Image{
+    position: relative;
+    left: 700px;
+    height: 400px;
+    width: 400px;
+}
+.scoreoutput{
+    position: relative;
+    left: 700px;
+    bottom: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    margin: 0px;
+    color: white; 
+}
+
+.firstPlayerScore, .secondPlayerScore{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 40px;
+}
+
+
+.buttons{
+    position: relative;
+    left: 700px;
+}
+
+button{
+    font-size: 10px;
+    padding: 10px 34px 10px 34px ;
+    background-color: crimson;
+    color: white;
+    border-radius: 6px;
+}
+
+.bluePlus{
+    background-color: rgb(23, 111, 167);
+}
+
+.scoreLevel{
+    padding: 10px 0 10px 0;
+}
+
+.Green{
+    color: green;
+}
+
+.Red{
+    color: darkred;
+}
